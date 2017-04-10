@@ -1,0 +1,185 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+#header
+{
+	background-color: #191515;
+	height:  109px;
+	width: 100%;
+	border-bottom: 3px solid #fe7d7d;
+}
+
+.logo
+{
+	margin-top: 17px;
+	float: left;
+}
+.menu
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 60px;
+	font-size: 14px;
+}
+
+
+
+.menu>li
+{
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.menu>li:hover
+{
+	font-weight: bold;
+}
+
+.menu>li:nth-child(1),
+.menu>li:nth-child(2)
+{
+	border-right: 1px solid #3a3737;
+	padding: 0 20px;
+}
+.menu>li:last-child
+{
+	padding-left: 20px; 
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	
+}
+
+#mouse
+{
+	cursor: pointer;
+	position: absolute;
+	bottom: -60px;
+	left: 50%;
+	
+}
+
+.section1
+{
+	
+	background-image: url(img/background-1.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.section2
+{
+	
+	background-image: url(img/background-2.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.section3
+{
+
+	background-image: url(img/background-3.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.content
+{
+	max-width: 1150px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+
+.imgContent
+{
+	height: 297px;
+	box-sizing: border-box;
+	float: right;
+	margin-top: 300px;
+}
+.tContent
+{
+	position: absolute;
+	margin-top: 300px;
+	max-width: 500px;
+	height: 297px;
+	box-sizing: border-box;	
+}
+
+.textContent
+{
+	position: absolute;
+	margin-top: 120px;
+	max-width: 500px;
+	height: 297px;
+	box-sizing: border-box;
+}
+
+.textContent h1
+{
+	font-size: 36px;
+	margin-top: 40px;
+	font-weight: 400;
+}
+
+.textContent h1::after
+{
+	content: "";
+	border: 1px solid #fe7d7d;
+	width: 65px;
+	display: block;
+	margin-top: 20px;
+}
+
+.textContent>p
+{
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.textContent>a
+{
+	display: block;
+	width: 278px;
+	margin-top: 40px;
+	font-size: 16px;
+	border: 2px solid #fe7d7d;
+	padding: 12px 20px;
+	color: #fe7d7d;
+	text-align: center;
+	font-weight: 400;
+}
+
+.textContent>a:hover
+{
+	background-color: #fe7d7d;
+	color: #000;
+	font-weight: bold;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+.transparent
+{
+	background-color: black;
+	opacity: 0.8;
+	padding-left: 40px;
+	margin-left: -40px;
+}
+
+
+.center
+{
+	margin-top: 300px;
+}
+
+.floatLeft
+{
+	float: left;
+}
